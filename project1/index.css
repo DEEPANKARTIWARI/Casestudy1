@@ -1,0 +1,53 @@
+.navbar-brand {
+  font-size: 30px;
+}
+.navbar-brand span {
+  color: lightskyblue;
+}
+.ribbon {
+  background-color: rgb(17, 111, 234);
+  height: 30px;
+}
+.ribbon p {
+  width: fit-content;
+  vertical-align: middle;
+}
+body {
+  margin: 0%;
+}
+#hero {
+  position: relative;
+  background-image: url(./herobackground.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+}
+#herodata {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+#herodata span i {
+  margin: 10px;
+  color: rgb(17, 111, 234);
+}
+#herodata h1 span {
+  color: rgb(17, 111, 234);
+}
+#herodata h1 {
+  font-size: 30px;
+}
+#herodata p {
+  color: rgb(88, 87, 87);
+}
+#herodata span {
+  color: rgb(88, 87, 87);
+}
+#herodata div a {
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 3px;
+  background-color: rgb(17, 111, 234);
+}
