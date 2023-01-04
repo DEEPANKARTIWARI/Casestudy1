@@ -21,7 +21,7 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
+    <header class="shadow hwaderclass">
       <div class="row container-fluid m-0 ribbon text-start">
         <div class="row col-6 text-light">
           <p class="col-3">
@@ -40,7 +40,9 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand col-3 text-center" href="./index.html"
+          <a
+            class="navbar-brand col-3 text-center border-bottem"
+            href="./index.html"
             ><b>BizLand<span>.</span></b></a
           >
           <button
@@ -63,23 +65,29 @@
             >
               <li class="nav-item">
                 <a
-                  class="nav-link mx-3 active"
+                  class="nav-link mx-3 active border-bottom text-primary border-primary border-2 fw-bolder"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3" href="about.html">About</a>
+                <a class="nav-link mx-3 border-bottem" href="about.html"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3" href="services.html">Service</a>
+                <a class="nav-link mx-3 border-bottem" href="services.html"
+                  >Service</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3" href="portfolio.html">portfolio</a>
+                <a class="nav-link mx-3 border-bottem" href="portfolio.html"
+                  >portfolio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3" href="team.html">Team</a>
+                <a class="nav-link mx-3 border-bottem" href="team.html">Team</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -102,26 +110,36 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-3" href="contact.html">Contact</a>
+                <a class="nav-link mx-3 border-bottem" href="contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="container-fluid" id="hero">
-        <div id="herodata">
-          <h1>
-            <b>WELCOME TO <span>BizLand</span></b>
-          </h1>
-          <p>
-            We are team of talanted designers making websites with Bootstrap
-          </p>
-          <div>
-            <a>GET STARTED</a>
-            <span><i class="fa-light fa-circle-play"></i> Watch Video </span>
-          </div>
+    </header>
+    <div class="container-fluid" id="hero">
+      <div id="herodata">
+        <h1>
+          <b>WELCOME TO <span>BizLand</span></b>
+        </h1>
+        <p>We are team of talanted designers making websites with Bootstrap</p>
+        <div>
+          <a>GET STARTED</a>
+          <span><i class="fa-light fa-circle-play"></i> Watch Video </span>
         </div>
       </div>
-    </header>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

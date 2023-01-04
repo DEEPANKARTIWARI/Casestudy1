@@ -14,12 +14,17 @@
 }
 body {
   margin: 0%;
+  background-image: url(./herobackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hwaderclass {
+  z-index: 2;
 }
 #hero {
   position: relative;
-  background-image: url(./herobackground.jpg);
+
   height: 700px;
-  background-repeat: no-repeat;
 }
 #herodata {
   position: absolute;
